@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[locality]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[PostalCode] INT NOT NULL,
+	[Name] NVARCHAR(100) NOT NULL,
+	[Town] NVARCHAR(100) NULL,
+)

@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[race]
+(
+	[RaceId] INT NOT NULL PRIMARY KEY IDENTITY,
+	RaceName NVARCHAR(255) NOT NULL, 
+	Place NVARCHAR(255) NOT NULL, 
+	StartDate DATE NOT NULL, 
+	EndDate DATE, 
+	RaceType NVARCHAR(100) NOT NULL, 
+	Distance DECIMAL(6,2) NOT NULL, 
+	RealDistance DECIMAL(6,2) NOT NULL, 
+	Elevation INT, 
+	RaceURL NVARCHAR(2048),
+)
