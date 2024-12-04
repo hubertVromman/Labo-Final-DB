@@ -8,5 +8,6 @@
     [AccessToken]               NVARCHAR (1000) NULL,
     [MaxRefreshTokenExpiration] DATETIME2 (7)  NULL,
     [RefreshToken]              NVARCHAR (44) NULL,
-    [RefreshTokenExpiration]    DATETIME2 (7)  NULL
+    [RefreshTokenExpiration]    DATETIME2 (7)  NULL,
+    CONSTRAINT UK_Email UNIQUE(Email)   
 )

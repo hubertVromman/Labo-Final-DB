@@ -57,6 +57,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\race.sql" />
@@ -64,6 +65,7 @@
     <Build Include="Tables\runner.sql" />
     <Build Include="Tables\result.sql" />
     <Build Include="Tables\locality.sql" />
+    <Build Include="Views\FullUser.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB.publish.xml" />
