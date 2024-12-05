@@ -10,4 +10,5 @@
 	RealDistance DECIMAL(6,2) NOT NULL, 
 	Elevation INT, 
 	RaceURL NVARCHAR(2048),
+	ResultNumber INT,
 )

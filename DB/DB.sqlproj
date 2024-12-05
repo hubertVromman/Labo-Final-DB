@@ -58,6 +58,9 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="Views" />
+    <Folder Include="Scripts" />
+    <Folder Include="Data" />
+    <Folder Include="StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\race.sql" />
@@ -66,11 +69,17 @@
     <Build Include="Tables\result.sql" />
     <Build Include="Tables\locality.sql" />
     <Build Include="Views\FullUser.sql" />
+    <Build Include="StoredProcedures\Login.sql" />
+    <Build Include="StoredProcedures\Register.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB.publish.xml" />
+    <None Include="Data\code-postaux-belge.json" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
