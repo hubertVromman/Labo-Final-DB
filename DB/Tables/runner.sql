@@ -5,4 +5,5 @@
     [Firstname]                    NVARCHAR (320) NOT NULL,
     [Gender]                       CHAR (1) NULL,
     [BirthYear]                    INT NULL,
+    [IsAnonymous]                  BIT NOT NULL Default 0,
 )
