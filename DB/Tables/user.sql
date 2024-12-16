@@ -9,5 +9,7 @@
     [MaxRefreshTokenExpiration] DATETIME2 (7)  NULL,
     [RefreshToken]              NVARCHAR (44) NULL,
     [RefreshTokenExpiration]    DATETIME2 (7)  NULL,
+    [IsActive] BIT NOT NULL DEFAULT 0, 
+    [ActivationCode] NVARCHAR(50) NULL, 
     CONSTRAINT UK_Email UNIQUE(Email)   
 )
