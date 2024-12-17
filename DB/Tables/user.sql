@@ -11,5 +11,7 @@
     [RefreshTokenExpiration]    DATETIME2 (7)  NULL,
     [IsActive] BIT NOT NULL DEFAULT 0, 
     [ActivationCode] NVARCHAR(50) NULL, 
+    [ResetPasswordCode] NVARCHAR(50) NULL, 
+    [ResetPasswordExpiration] DATETIME2 NULL, 
     CONSTRAINT UK_Email UNIQUE(Email)   
 )

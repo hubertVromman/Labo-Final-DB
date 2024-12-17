@@ -71,6 +71,7 @@
     <Build Include="Views\FullUser.sql" />
     <Build Include="StoredProcedures\Login.sql" />
     <Build Include="StoredProcedures\Register.sql" />
+    <Build Include="StoredProcedures\ResetPassword.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB.publish.xml" />
